@@ -7,6 +7,7 @@
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
   --success-color: #28a745;
+  --primary-background: url('./Dinpattern\ Stripe.gif');
 }
 
 * {
@@ -236,8 +237,10 @@ img {
 .bg-primary,
 .badge-primary,
 .alert-primary {
-  background: var(--primary-color);
-  color: #fff;
+  background: var(--primary-background);
+  text-decoration: underline;
+  text-decoration-color: #68f9ad;
+  color: rgb(84, 250, 252);
 }
 
 .btn-light,
@@ -268,8 +271,10 @@ img {
 .bg-success,
 .badge-success,
 .alert-success {
-  background: var(--success-color);
-  color: #fff;
+  background: var(--primary-background);
+  text-decoration: underline;
+  text-decoration-color: #68f9ad;
+  color: rgb(84, 250, 252);
 }
 
 .btn-white,
